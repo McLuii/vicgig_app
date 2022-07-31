@@ -16,7 +16,7 @@ gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
 
 # Use jquery-rails for Javascript library
-gem 'jquery-rails', '~> 4.5'
+gem 'jquery-rails'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
@@ -46,7 +46,16 @@ gem "tzinfo-data"
 gem "bootsnap", require: false
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem 'sassc'
+
+
+# Use boostrap for CSS styling
+gem 'bootstrap-sass', '~> 3.4.1'
+
+gem 'sassc-rails', '>= 2.1.0'
+# Use autoprefixer to add browser vendor prefixes automatically
+# gem 'autoprefixer-rails'
+
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
